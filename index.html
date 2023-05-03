@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Results summary component</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h2 class="heading">Your Result</h2>
+            <div class="circle">
+                <p class="lg-text">76</p>
+                <p class="sm-text">of 100</p>
+            </div>
+            <h3 class="sm-heading">Great</h3>
+            <p class="btm-text">
+                You scrored higher than 65% of the people who have taken these tests.
+            </p>
+        </div>
+
+        <div class="right">
+            <h2>Summary</h2>
+            <div class="results">
+                <div class="reaction item">
+                    <div class="item-left">
+                        <img src="img/icon-reaction.svg" alt="reaction icon">
+                        <p id="p-reaction">Reaction</p>
+                    </div>
+                    <div class="item-right">
+                        <span class="first-span">80</span>
+                        <span>/</span>
+                        <span>100</span>
+                    </div>
+                </div>
+                <div class="memory item">
+                    <div class="item-left">
+                        <img src="img/icon-memory.svg" alt="">
+                        <p id="p-memory">Memory</p>
+                    </div>
+                    <div class="item-right">
+                        <span class="first-span">92</span>
+                        <span>/</span>
+                        <span>100</span>
+                    </div>
+                </div>
+                <div class="verbal item">
+                    <div class="item-left">
+                        <img src="img/icon-verbal.svg" alt="">
+                        <p id="p-verbal">Verbal</p>
+                    </div>
+                    <div class="item-right">
+                        <span class="first-span">61</span>
+                        <span>/</span>
+                        <span>100</span>
+                    </div>
+                </div>
+                <div class="visual item">
+                    <div class="item-left">
+                        <img src="img/icon-visual.svg" alt="">
+                        <p id="p-visual">Visual</p>
+                    </div>
+                    <div class="item-right">
+                        <span class="first-span">72</span>
+                        <span>/</span>
+                        <span>100</span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">Continue</button>
+        </div>
+    </div>
+</body>
+
+</html>
